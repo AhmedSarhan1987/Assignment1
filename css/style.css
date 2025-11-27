@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+#b1{
+  width: 89px;
+  height:45px;
+  background-color: rgb(255, 0, 0); 
+  border-radius: 6px; 
+  color: aliceblue;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  margin: 20px 50px;
+  justify-content: center;
+}
+#b1:hover{
+     background-color: #b8020c
+}
+
+#s1{
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#b2{
+  background-color: #DC030F;
+    color: white;
+    cursor: pointer;
+    height: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 28px;
+}
+#b2:hover{
+     background-color: #b8020c
+}
+
+#in1{
+    width: 400px;
+    height: 50px;
+    padding: 0 10px;
+    margin-top: 50px;
+}
+
+.content{
+    justify-content: center;
+    margin-top: 50px;
+     background: transparent;
+    color: aliceblue;
+    
+}
+
+#sec1{
+    background-image: url(../img/Netflix_bcg.jpg);
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* ///// */
+#sec1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55); 
+    z-index: 1;
+}
+
+
+#sec1 .content,
+#sec1 nav {
+    position: relative;
+    z-index: 2;
+}
+
+#p1{
+    color: aliceblue;
+
+}
+/* ////////// */
+
+/* ///////////////////////////////////// */
+#sec2 {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+    border: 3px solid #666;   
+    background-color: black;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: row;         
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    gap: 20px;                  
+    padding-left: 30px;         
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;      
+    gap: 10px;
+    color: white;
+    font-family: sans-serif;
+     padding-left: 20vh; 
+}
+
+.text2 h1,
+.text2 p {
+    margin: 0;
+}
+
+.img2 {
+    width: 50%;
+    height: 60vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/tv.png);
+}
+
+/* ///////////////////////////////////////////////////// */
+#sec3 {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+    border: 3px solid #666;   
+    background-color: black;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: row; 
+     justify-content: space-between; 
+    justify-content:first baseline;  
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    padding-right: 30px; 
+}
+
+.text3 {
+     display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    font-family: sans-serif;
+    text-align: right;  
+     padding-right: 20vh; 
+}
+
+.content3 h1 {
+    margin: 0;
+}
+
+.content3 p {
+    margin: 0;
+}
+
+.img3{
+    width: 50%;
+    height: 60vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/mobile-0819.jpg);
+}
+
+/* /////////////////////////////////////////////////// */
+#sec4 {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+    border: 3px solid #666;   
+    background-color: black;
+}
+
+.content4 {
+    display: flex;
+    flex-direction: row;         
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    gap: 20px;                   
+    padding-left: 30px;          
+}
+
+.text4 {
+    display: flex;
+    flex-direction: column;     
+    gap: 10px;
+    color: white;
+    font-family: sans-serif;
+     padding-left: 20vh; 
+}
+
+.text4 h1,
+.text4 p {
+    margin: 0;
+}
+
+.img4 {
+    width: 50%;
+    height: 60vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/device-pile-in.png);
+}
+
+
+/* ///////////////////////////////////////////////////////////// */
+#sec5 {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+    border: 3px solid #666;   
+    background-color: black;
+}
+
+.content5 {
+     display: flex;
+    flex-direction: row; 
+     justify-content: space-between; 
+    justify-content:first baseline;  
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    padding-right: 30px; 
+}
+
+.text5 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;               
+    color: white;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     padding-right: 20vh; 
+    font-size: 20px;
+    text-align: center;
+}
+
+.content5 h1 {
+    margin: 0;
+}
+
+.content5 p {
+    margin: 0;
+}
+
+.img5 {
+    width: 50%;
+    height: 60vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/p6.png);
+}
